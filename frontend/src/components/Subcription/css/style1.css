@@ -1,0 +1,22 @@
+.root{
+    background-color: #005377;
+    background-size: cover;
+    height: 100vh;
+}
+.point{
+    margin-left: 10px;
+    color: white;
+  
+    
+}
+
+.button2{
+    margin-top: 40px;
+    margin-left: 1200px;
+    color: white;
+    background-color:rgb(224, 222, 216);
+    
+}
+.button2:hover{
+    background-color: rgb(152, 154, 156);
+}

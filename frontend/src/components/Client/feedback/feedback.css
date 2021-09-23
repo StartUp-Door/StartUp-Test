@@ -1,0 +1,16 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+  }
+
+.part1{
+
+    flex: 1;
+}
+
+.part2{
+    flex: 2;
+
+}
+
+ 

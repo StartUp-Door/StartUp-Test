@@ -1,0 +1,11 @@
+
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+  img.previewimg {
+    margin: 27px auto;
+    display: block;
+    max-width: 377px;
+  }
+ 

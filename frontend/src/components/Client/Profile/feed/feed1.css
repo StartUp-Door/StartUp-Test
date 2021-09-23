@@ -1,0 +1,18 @@
+.feed{
+    flex:4 !important;
+    align-items: center;
+    /* background-color: saddlebrown; */
+    /* margin-right: 30px; */
+}
+
+.feedWrapper{
+    padding-left: 40px;
+    align-items: center;
+}
+
+.jobs_feed{
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    padding-bottom: 10px;
+}

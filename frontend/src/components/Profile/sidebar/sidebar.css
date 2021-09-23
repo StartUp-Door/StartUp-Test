@@ -1,0 +1,72 @@
+.sidebar {
+    flex: 2;
+    height: calc(54vh - 50px);
+    /* overflow-y: scroll; */
+    position: sticky;
+    /* top: 90px; */
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.904);
+    box-shadow: 0px 0px 16px -8px rgb(0, 0, 0);
+    overflow-y: hidden;
+    background-color: #005377;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* padding: 100px; */
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
+  
+  .sidebarWrapper {
+    padding: 20px;
+  }
+  
+  .sidebarList {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .sidebarListItemText{
+    color: white;
+    font-size: large;
+  }
+  .sidebarListItemText:hover{
+    color:black;
+  }
+  .sidebarListItem:hover{
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .sidebarIcon {
+    margin-right: 15px;
+  }
+  
+  .sidebarHr {
+    margin: 20px 0;
+  }
+  
+  .sidebarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  
+  
